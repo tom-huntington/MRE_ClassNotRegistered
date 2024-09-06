@@ -1,0 +1,8 @@
+namespace MRE_ClassNotRegistered
+{
+    [default_interface]
+    runtimeclass MyAudioEffect : Windows.Media.Effects.IBasicAudioEffect
+    {
+        MyAudioEffect();
+    }
+}
